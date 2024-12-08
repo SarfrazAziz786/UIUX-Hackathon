@@ -6,7 +6,6 @@ import icons_search from '@/app/assets/akar-icons_search.png'
 import icons_heart from '@/app/assets/akar-icons_heart.png'
 import shopping_cart from '@/app/assets/ant-design_shopping-cart-outlined.png'
 import hamburger from '@/app/assets/hamburger.png'
-import Hamburger from './HamburgerMenu'
 
 
 
