@@ -12,7 +12,6 @@ const Homepage = () => {
       <HeroSection/>
       <br /><br /><br /><br /><br /> <br /><br />
       <BrowseTheRange/>
-      <OurProducts/>
 
     </div>
   )
