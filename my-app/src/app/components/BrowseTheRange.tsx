@@ -6,7 +6,7 @@ import bedroom from '@/app/assets/bedroom.png'
 
 const BrowseTheRange = () => {
   return (
-    <div className='relative bg-yellow-400 '>
+    <div className='relative '>
         <div className='absolute w-[1183px] h-[685px] top-[869px] left-[131px]  '>
             <div className=' w-[559px] h-[76.71px] top-[869px] left-[449px]  place-items-center m-auto '>
                 <h2 className=' w-[300px] h-[48px] top-[869px] left-[543px]

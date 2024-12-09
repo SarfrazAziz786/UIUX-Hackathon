@@ -6,6 +6,7 @@ import icons_search from '@/app/assets/akar-icons_search.png'
 import icons_heart from '@/app/assets/akar-icons_heart.png'
 import shopping_cart from '@/app/assets/ant-design_shopping-cart-outlined.png'
 import hamburger from '@/app/assets/hamburger.png'
+import Link from 'next/link'
 
 
 
@@ -19,12 +20,12 @@ const Navbar = () => {
                 <h1 className='sm:w-[130px] sm:h-[41px] font-Montserrat font-bold text-[34px] leading-[41.45px] text-black'>Furniro</h1>
               </div>
 
-              <ul className='hidden sm:visible sm:w-[430px] sm:h-[24px] sm:top-[38px] sm:left-[505px] font-Poppins font-medium text-16px leading-6 text-black sm:flex justify-between'>
-                <li className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Home</li>
-                <li className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Shop</li>
-                <li className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Blog</li>
-                <li className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Contact</li>
-              </ul>
+              <div className='hidden sm:visible sm:w-[430px] sm:h-[24px] sm:top-[38px] sm:left-[505px] font-Poppins font-medium text-16px leading-6 text-black sm:flex justify-between'>
+                <Link href='./' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Home</Link>
+                <Link href='./Shop' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Shop</Link>
+                <Link href='./Blog' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Blog</Link>
+                <Link href='./Contact' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Contact</Link>
+              </div>
 
               <div className='flex justify-between sm:gap-8 gap-3'>
                 <Image src={account_alert}  alt='account_alert' className='w-[28px] h-[28px] top-[36px] left-[1093px] hidden sm:inline-block '  />

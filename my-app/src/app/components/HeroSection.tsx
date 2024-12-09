@@ -1,15 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-import interior_mockup from '@/app/assets/scandinavian-interior-mockup-wall-decal-background 1.png'
+import interiormockup from '@/app/assets/herosection.jpeg'
 
 const HeroSection = () => {
   return (
-    <div>
+    
       <div className="absolute w-[1440px] h-[716.83px] left-0 sm:top-[95.7px] top-[50px]  flex flex-row">
 
-        <Image src={interior_mockup} alt='interior_mockup'  className=' sm:w-[1440px] sm:h-[1007.93px] sm:top-[-75px] w-[100vw] h-[50vh] '/>
+        <Image src={interiormockup}  alt='interior-mockup'  className=' sm:w-[1440px] sm:h-[1007.93px] sm:top-[-75px] w-[100vw] h-[50vh] '/>
           
-          {/* new arrival box */}
+          
           <div className="absolute sm:w-[643px] sm:h-[443px] sm:left-[739px] sm:top-[253px] w-[200px] h-[280px] left-[200px] top-[100px]
                           rounded-[10px] bg-[#FFF3E3] flex justify-around items-center">
                 
@@ -35,7 +35,7 @@ const HeroSection = () => {
          </div>
 
       </div>
-    </div>
+    
   )
 }
 
