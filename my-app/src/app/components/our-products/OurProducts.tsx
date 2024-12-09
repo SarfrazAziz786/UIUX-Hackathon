@@ -15,7 +15,7 @@ interface Card {
   disc: string;
   price: string;
   oldPrice?: string;
-  image: StaticImageData;
+  image: any;
 }
 
 const Data: Card[] = [
