@@ -3,6 +3,7 @@ import BrowseTheRange from "./components/BrowseTheRange";
 import React from 'react'
 import OurProducts from "./components/our-products/OurProducts";
 import RoomsInspiration from "./components/Roomsinspiration/RoomsInspiration";
+import FuniroFurniture from "./components/FuniroFurniture/FuniroFurniture";
 
 
 const Homepage = () => {
@@ -10,12 +11,13 @@ const Homepage = () => {
     <div>
       {/* <Header/> */}
       <HeroSection/>
-      <br /><br /><br /><br /><br /> <br /><br />
-      <BrowseTheRange/>
       <br />
-      
+      <BrowseTheRange/>
+            <br />
       <OurProducts/>
       <RoomsInspiration/>
+      
+      <FuniroFurniture/>
 
     </div>
   )

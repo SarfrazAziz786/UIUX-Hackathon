@@ -6,18 +6,22 @@ import bedroom from '@/app/assets/bedroom.png'
 
 const BrowseTheRange = () => {
   return (
-    <div className='relative '>
-        <div className='absolute w-[1183px] h-[685px] top-[869px] left-[131px]  '>
-            <div className=' w-[559px] h-[76.71px] top-[869px] left-[449px]  place-items-center m-auto '>
+    <div >
+        <div className=' sm:w-[1183px] sm:h-[685px] sm:mt-[300px] mx-auto  
+                        w-[344px] h-[1700px]  '>
+            <div className=' sm:w-[559px] sm:h-[76.71px] sm:top-[869px] sm:left-[449px]  place-items-center mx-auto 
+                              w-[344px]  '>
                 <h2 className=' w-[300px] h-[48px] top-[869px] left-[543px]
                                 font-Poppins font-bold text-[32px] leading-[48px] text-black'>Browse The Range</h2>
-                <p className=' w-[559px] h-[28.71px] top-[917px] left-[449px]
+                <p className=' sm:w-[559px] h-[28.71px] sm:top-[917px] left-[449px] mb-2
                                 font-Poppins font-normal text-xl leading-[30px] text-center text-[#666666]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <br />
 
             
-            <div className='w-[1183px] h-[508px] flex flex-row justify-between content-between  '>
+            <div className='sm:w-[1183px] h-[508px] 
+                            w-[100vw]
+                            flex flex-row justify-between  flex-wrap gap-6 sm:gap-1 '>
                 
                     <div >
                         <Image src={dining} alt='dining' className='w-[381px] h-[480px]'/>

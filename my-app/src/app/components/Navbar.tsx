@@ -22,9 +22,9 @@ const Navbar = () => {
 
               <div className='hidden sm:visible sm:w-[430px] sm:h-[24px] sm:top-[38px] sm:left-[505px] font-Poppins font-medium text-16px leading-6 text-black sm:flex justify-between'>
                 <Link href='./' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Home</Link>
-                <Link href='./Shop' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Shop</Link>
-                <Link href='./Blog' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Blog</Link>
-                <Link href='./Contact' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Contact</Link>
+                <Link href='/shop' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Shop</Link>
+                <Link href='/blog' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Blog</Link>
+                <Link href='/contact' className=' hover:underline hover:decoration-yellow-500 hover:decoration-8'>Contact</Link>
               </div>
 
               <div className='flex justify-between sm:gap-8 gap-3'>
