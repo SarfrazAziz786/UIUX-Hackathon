@@ -3,9 +3,13 @@ import Image from 'next/image'
 import shopbg from '@/app/assets/shop page/heroSection.png'
 import logo from '@/app/assets/Meubel House_Logos-05.jpg'
 import Link from 'next/link'
+import BillingDetails from '../components/BillingDetails/BillingDetails'
+import OrderSummary from '../components/OrderSummary/OrderSummary'
+import Features from '../components/shoppageComponent/Features'
 
 
-const Blog = () => {
+
+const Checkout = () => {
   return (
     <div>
       <div className="bg-cover bg-center h-64 flex flex-col items-center justify-center text-center">
@@ -20,12 +24,19 @@ const Blog = () => {
               Home
             </Link>
             <span className='text-black'>&gt;</span>
-            <span className="text-gray-700">Blog</span>
+            <span className="text-gray-700">Checkout</span>
           </nav>
         </div>
       </div>
+        <div className='flex mt-24 mx-auto w-[1440px] h-[1300px] bg-white '>
+            <BillingDetails/>
+            <OrderSummary/>
+        </div>
+      <Features/>
+
+
     </div>
   )
 }
 
-export default Blog
+export default Checkout
