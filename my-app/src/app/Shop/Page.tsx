@@ -1,12 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
 import FilterBar from '../components/shoppageComponent/filterbar';
-import Link from 'next/link';
-import OurProducts from '../components/our-products/OurProducts';
 import ProductCard from '../components/productsCards/ProductCard';
-import Pagination from '../components/shoppageComponent/Pagination';
 import Features from '../components/shoppageComponent/Features';
 import ShopBanner from '../components/shoppageComponent/ShopBanner';
+import Pagination from '../components/shoppageComponent/Pagination';
 
 
 

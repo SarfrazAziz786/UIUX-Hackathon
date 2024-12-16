@@ -11,7 +11,6 @@ import product6 from '@/app/assets/products/product-6.png';
 import product7 from '@/app/assets/products/product-7.png';
 import product8 from '@/app/assets/products/product-8.png';
 import Link from 'next/link';
-import productpage from '@/app/shop/productpage/page'
 
 
 interface Card {
@@ -19,7 +18,7 @@ interface Card {
   disc: string;
   price: string;
   oldPrice?: string;
-  image: any;
+  image: string;
 }
 
 const Data: Card[] = [
