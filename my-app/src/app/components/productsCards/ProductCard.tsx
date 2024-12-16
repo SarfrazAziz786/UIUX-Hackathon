@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 import product1 from '@/app/assets/products/product-1.png';
 import product2 from '@/app/assets/products/product-2.png';
@@ -18,7 +18,7 @@ interface Card {
   disc: string;
   price: string;
   oldPrice?: string;
-  image: string;
+  image: StaticImageData;
 }
 
 const Data: Card[] = [
