@@ -5,7 +5,7 @@ import logo from '@/app/assets/Meubel House_Logos-05.jpg'
 import Link from 'next/link'
 
 
-const Blog = () => {
+const blog = () => {
   return (
     <div>
       <div className="bg-cover bg-center h-64 flex flex-col items-center justify-center text-center">
