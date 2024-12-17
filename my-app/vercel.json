@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "next",
-        "use": "@vercel/static-build"
-      }
-    ],
     "routes": [
       {
         "src": "/(.*)",
