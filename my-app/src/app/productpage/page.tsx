@@ -2,7 +2,7 @@ import Breadcrumb from '@/app/components/shoppageComponent/ProductPageComp/bread
 import React from 'react'
 import ProductDetail from '@/app/components/shoppageComponent/ProductPageComp/productDetail'
 import ProductTabs from '@/app/components/shoppageComponent/ProductPageComp/productTabs'
-import RelatedProduct from '@/app/components/shoppageComponent/ProductPageComp/RelatedProduct'
+import RelatedProduct from '@/app/components/shoppageComponent/ProductPageComp/relatedProduct'
 
 
 const ProductPage = () => {
