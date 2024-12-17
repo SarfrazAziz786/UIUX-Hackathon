@@ -1,9 +1,9 @@
 import React from 'react'
 import FilterBar from '../components/shoppageComponent/filterbar';
-import ProductCard from '../components/productsCards/ProductCard';
-import Features from '../components/shoppageComponent/Features';
-import ShopBanner from '../components/shoppageComponent/ShopBanner';
-import Pagination from '../components/shoppageComponent/Pagination';
+import ProductCard from '../components/productsCards/productCard';
+import Features from '../components/shoppageComponent/features';
+import ShopBanner from '../components/shoppageComponent/shopBanner';
+import Pagination from '../components/shoppageComponent/pagination';
 
 
 

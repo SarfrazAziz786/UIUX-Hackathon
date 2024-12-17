@@ -3,7 +3,7 @@ import Image from 'next/image'
 import shopbg from '@/app/assets/shop page/heroSection.png'
 import logo from '@/app/assets/Meubel House_Logos-05.jpg'
 import Link from 'next/link'
-import ContactForm from '../components/ContactForm/ContactForm'
+import ContactForm from '../components/ContactForm/contactForm'
 
 const Contact = () => {
   return (

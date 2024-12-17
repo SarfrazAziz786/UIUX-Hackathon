@@ -1,9 +1,9 @@
-import HeroSection from "./components/HeroSection";
-import BrowseTheRange from "./components/BrowseTheRange";
+import HeroSection from "./components/heroSection";
+import BrowseTheRange from "./components/browseTheRange";
 import React from 'react'
-import OurProducts from "./components/our-products/OurProducts";
-import RoomsInspiration from "./components/Roomsinspiration/RoomsInspiration";
-import FuniroFurniture from "./components/FuniroFurniture/FuniroFurniture";
+import OurProducts from "./components/our-products/ourProducts";
+import RoomsInspiration from "./components/Roomsinspiration/roomsInspiration";
+import FuniroFurniture from "./components/FuniroFurniture/funiroFurniture";
 
 
 const Homepage = () => {

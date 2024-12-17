@@ -3,8 +3,8 @@ import Link from 'next/link'
 import Image from "next/image"
 import shopbg from '@/app/assets/shop page/heroSection.png'
 import logo from '@/app/assets/Meubel House_Logos-05.jpg'
-import CartPage from '../components/CartPage/CartPage'
-import Features from '../components/shoppageComponent/Features'
+import CartPage from '../components/CartPage/cartPage'
+import Features from '../components/shoppageComponent/features'
 
 
 const Cart = () => {

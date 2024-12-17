@@ -3,9 +3,9 @@ import Image from 'next/image'
 import shopbg from '@/app/assets/shop page/heroSection.png'
 import logo from '@/app/assets/Meubel House_Logos-05.jpg'
 import Link from 'next/link'
-import BillingDetails from '../components/BillingDetails/BillingDetails'
-import OrderSummary from '../components/OrderSummary/OrderSummary'
-import Features from '../components/shoppageComponent/Features'
+import BillingDetails from '../components/BillingDetails/billingDetails'
+import OrderSummary from '../components/OrderSummary/orderSummary'
+import Features from '../components/shoppageComponent/features'
 
 
 
