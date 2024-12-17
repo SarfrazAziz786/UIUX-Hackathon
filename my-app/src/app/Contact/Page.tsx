@@ -31,7 +31,7 @@ const Contact = () => {
         <h1 className='font-Poppins font-semibold text-3xl leading-[54px] text-black mx-auto'>Get In Touch With Us</h1>
         <p className='w-[644px] h-[48px] font-Poppins font-normal text-base leading-6 text-center text-[#9F9F9F]'></p>
       </div>
-      <div></div>
+      <div>g</div>
       <ContactForm/>
 
     </div>
